@@ -16,7 +16,7 @@
 </head>
 <body>
   <h1>TB Turbo — Privacy Policy</h1>
-  <p class="updated">Last updated: 17 June 2026</p>
+  <p class="updated">Last updated: 22 October 2026</p>
 
   <p>TB Turbo ("the extension") is a browser extension that automates gameplay
   tasks within a supported web-based game. This policy explains exactly what data
@@ -46,16 +46,22 @@
     personal identity information through the extension.</li>
     <li>We do <strong>not</strong> collect your browsing history, the websites you
     visit, your keystrokes, or any activity outside the supported game's page.</li>
-    <li><strong>Screen captures stay on your device.</strong> To automate the
-    game, the extension captures and analyses the game screen entirely inside your
-    browser (on-device image recognition). These captures are never uploaded,
-    transmitted, or stored anywhere off your device.</li>
-    <li>We do <strong>not</strong> sell, rent, or share your data with third
-    parties, and we do <strong>not</strong> use it for advertising or any purpose
+    <li><strong>Screen captures and vision checks.</strong> To automate the
+    game, the extension captures the game screen. Standard automation analyses these captures on your device using on-device image recognition. From version 3.0.21, vision assistance is enabled by default for licensed users and can be disabled in Having issues?. When assistance or optional decision comparison is enabled, cropped game regions are sent through our service to TypeSafe. These crops may include visible game names and queue labels. Your assistance choice is saved; decision comparison is off by default. Comparison records observations. Recovery checks can stop uncertain progress, help locate march controls and retry known failures within the original march allowance.</li>
+    <li>We do <strong>not</strong> sell or rent your data, and we do <strong>not</strong> use it for advertising or any purpose
     unrelated to running the extension and its licensing.</li>
   </ul>
 
   <h2>Who receives data, and why</h2>
+  <p><strong>Optional support report.</strong> Having issues? can prepare a report
+  locally with browser and reported operating-system versions, display and game
+  dimensions, selected automation settings and run counters. It does not include
+  screenshots, account names, licence keys, credit balances, URLs, browsing history,
+  device identifiers or raw logs. You can review and edit it before downloading or
+  copying it. Collection uploads nothing. If you choose to email support, your
+  email application sends your message and any report you attach to
+  tbturbodev@gmail.com; your own description and sender address are included in that
+  email. The extension does not send the email automatically.</p>
   <ul>
     <li><strong>Gumroad</strong> — receives your licence key to verify your
     purchase. See Gumroad's own privacy policy for how they handle it.</li>
@@ -64,13 +70,15 @@
     works across sessions.</li>
   </ul>
 
+  <p><strong>TypeSafe</strong> receives cropped game images when vision assistance or optional decision comparison is enabled. Our service processes images in memory and logs check results, token usage and image hashes, without retaining the uploaded image. Provider processing is subject to <a href="https://typesafe.ai/legal/privacy-policy">TypeSafe’s privacy policy</a>.</p>
+
   <h2>Permissions</h2>
   <p>The extension requests broad host access so it can communicate with our
   licensing services (Gumroad and Firebase) and run on the supported game's page.
   It only acts on that game's site; it does not read or modify other websites.</p>
 
   <h2>Data retention</h2>
-  <p>Licensing records are kept for as long as your licence is active. You can
+  <p>Our vision relay verifies your licence with Gumroad to issue short-lived access. It keeps hashed licence identifiers, request counters and limited check metadata to enforce usage limits; it does not retain uploaded image files. Per-request metadata is retained for up to 48 hours and usage counters for up to four days. Licensing records are kept for as long as your licence is active. You can
   request deletion of your licensing records by contacting us at the address below.</p>
 
   <h2>Contact</h2>
